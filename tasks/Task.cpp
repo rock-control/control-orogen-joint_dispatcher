@@ -128,7 +128,6 @@ void Task::stopHook()
 }
 void Task::cleanupHook()
 {
-    clearPorts();
     TaskBase::cleanupHook();
 }
 
